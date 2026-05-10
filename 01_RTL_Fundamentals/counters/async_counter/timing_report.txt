@@ -1,0 +1,65 @@
+OpenSTA 3.1.0 d503c0ede5 Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Startpoint: _13_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _13_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _13_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.31    0.31 ^ _13_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.06    0.37 v _09_/Y (sky130_fd_sc_hd__xnor2_1)
+   0.00    0.37 v _13_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.37   data arrival time
+
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _13_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.05   -0.05   library hold time
+          -0.05   data required time
+---------------------------------------------------------
+          -0.05   data required time
+          -0.37   data arrival time
+---------------------------------------------------------
+           0.43   slack (MET)
+
+
+Startpoint: _10_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _12_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _10_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.36    0.36 ^ _10_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.11    0.47 v _06_/Y (sky130_fd_sc_hd__nand3_1)
+   0.14    0.61 v _08_/X (sky130_fd_sc_hd__lpflow_isobufsrc_1)
+   0.00    0.61 v _12_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.61   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _12_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.12    9.88   library setup time
+           9.88   data required time
+---------------------------------------------------------
+           9.88   data required time
+          -0.61   data arrival time
+---------------------------------------------------------
+           9.27   slack (MET)
+
+
+tns max 0.00
+wns max 0.00
