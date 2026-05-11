@@ -12,7 +12,7 @@ A positive edge-triggered D flip-flop with active-low synchronous reset (`rst_n`
 | synthesis_report.png | Yosys synthesis and OpenSTA report |
 
 ## Simulation result
-![Waveform](d_ff_mapped.svg)
+![Waveform](d_ff_sync_mapped.svg)
 
 ## Synthesis (Sky130 + Yosys + OpenSTA)
 
