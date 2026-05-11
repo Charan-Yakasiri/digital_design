@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="1146" height="259.5">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="generic" transform="translate(146,65.5)" s:width="30" s:height="40" id="cell_$abc$170$auto$blifparse.cc:386:parse_blif$171">
+    <text x="15" y="-4" class="nodelabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$171" s:attribute="ref">sky130_fd_sc_hd__clkinv_1</text>
+    <rect width="30" height="20" s:generic="body" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$171"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$171~A">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$171">A</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$171~Y">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$171">Y</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(487,34)" s:width="30" s:height="40" id="cell_$abc$170$auto$blifparse.cc:386:parse_blif$172">
+    <text x="15" y="-4" class="nodelabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$172" s:attribute="ref">sky130_fd_sc_hd__lpflow_inputiso1p_1</text>
+    <rect width="30" height="40" s:generic="body" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$172"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$172~A">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$172">A</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$172~SLEEP">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$172">SLEEP</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$172~X">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$172">X</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(799,184.5)" s:width="30" s:height="40" id="cell_$abc$170$auto$blifparse.cc:386:parse_blif$173">
+    <text x="15" y="-4" class="nodelabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$173" s:attribute="ref">sky130_fd_sc_hd__or3_1</text>
+    <rect width="30" height="60" s:generic="body" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$173"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$173~A">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$173">A</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$173~B">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$173">B</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$173~C">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$173">C</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$173~X">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$173">X</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(487,122)" s:width="30" s:height="40" id="cell_$abc$170$auto$blifparse.cc:386:parse_blif$174">
+    <text x="15" y="-4" class="nodelabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$174" s:attribute="ref">sky130_fd_sc_hd__a21o_1</text>
+    <rect width="30" height="60" s:generic="body" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$174"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$174~A1">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$174">A1</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$174~A2">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$174">A2</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$174~B1">
+      <text x="-3" y="-4" class="inputPortLabel cell_$abc$170$auto$blifparse.cc:386:parse_blif$174">B1</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_$abc$170$auto$blifparse.cc:386:parse_blif$174~X">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_$abc$170$auto$blifparse.cc:386:parse_blif$174">X</text>
+    </g>
+  </g>
+  <g s:type="inputExt" transform="translate(12,44.5)" s:width="30" s:height="20" id="cell_d">
+    <text x="15" y="-4" class="nodelabel cell_d" s:attribute="ref">d</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_d"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="outputExt" transform="translate(1104,24.5)" s:width="30" s:height="20" id="cell_o">
+    <text x="15" y="-4" class="nodelabel cell_o" s:attribute="ref">o</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_o"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="outputExt" transform="translate(1104,185)" s:width="30" s:height="20" id="cell_valid">
+    <text x="15" y="-4" class="nodelabel cell_valid" s:attribute="ref">valid</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_valid"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="join" transform="translate(885.3333333333334,14)" s:width="4" s:height="40" id="cell_$join$,6,7,">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_join_"/>
+    <g s:x="5" s:y="20" s:pid="out"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">0</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">1</text>
+    </g>
+  </g>
+  <g s:type="split" transform="translate(77,34)" s:width="5" s:height="40" id="cell_$split$,2,3,4,5,">
+    <rect width="5" height="80" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">2</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">3</text>
+    </g>
+    <g transform="translate(4,50)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+    <g transform="translate(4,70)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+  </g>
+  <line x1="82" x2="129" y1="44.5" y2="44.5" class="net_4"/>
+  <line x1="129" x2="129" y1="44.5" y2="76" class="net_4"/>
+  <circle cx="129" cy="44.5" r="2" style="fill:#000" class="net_4"/>
+  <line x1="129" x2="146" y1="76" y2="76" class="net_4"/>
+  <line x1="82" x2="487" y1="44.5" y2="44.5" class="net_4"/>
+  <line x1="82" x2="119" y1="64.5" y2="64.5" class="net_5"/>
+  <line x1="119" x2="119" y1="64.5" y2="172.5" class="net_5"/>
+  <line x1="119" x2="426" y1="172.5" y2="172.5" class="net_5"/>
+  <line x1="426" x2="426" y1="172.5" y2="64.5" class="net_5"/>
+  <circle cx="426" cy="172.5" r="2" style="fill:#000" class="net_5"/>
+  <line x1="426" x2="487" y1="64.5" y2="64.5" class="net_5"/>
+  <line x1="82" x2="119" y1="64.5" y2="64.5" class="net_5"/>
+  <line x1="119" x2="119" y1="64.5" y2="172.5" class="net_5"/>
+  <line x1="119" x2="487" y1="172.5" y2="172.5" class="net_5"/>
+  <line x1="82" x2="109" y1="84.5" y2="84.5" class="net_2"/>
+  <line x1="109" x2="109" y1="84.5" y2="195" class="net_2"/>
+  <line x1="109" x2="799" y1="195" y2="195" class="net_2"/>
+  <line x1="82" x2="99" y1="104.5" y2="104.5" class="net_3"/>
+  <line x1="99" x2="99" y1="104.5" y2="206" class="net_3"/>
+  <line x1="99" x2="767" y1="206" y2="206" class="net_3"/>
+  <line x1="767" x2="767" y1="206" y2="215" class="net_3"/>
+  <line x1="767" x2="799" y1="215" y2="215" class="net_3"/>
+  <line x1="82" x2="99" y1="104.5" y2="104.5" class="net_3"/>
+  <line x1="99" x2="99" y1="104.5" y2="206" class="net_3"/>
+  <line x1="99" x2="436" y1="206" y2="206" class="net_3"/>
+  <line x1="436" x2="436" y1="206" y2="132.5" class="net_3"/>
+  <circle cx="436" cy="206" r="2" style="fill:#000" class="net_3"/>
+  <line x1="436" x2="487" y1="132.5" y2="132.5" class="net_3"/>
+  <line x1="518" x2="777" y1="44.5" y2="44.5" class="net_7"/>
+  <line x1="777" x2="777" y1="44.5" y2="235" class="net_7"/>
+  <circle cx="777" cy="44.5" r="2" style="fill:#000" class="net_7"/>
+  <line x1="777" x2="799" y1="235" y2="235" class="net_7"/>
+  <line x1="518" x2="885.3333333333334" y1="44.5" y2="44.5" class="net_7"/>
+  <line x1="177" x2="446" y1="76" y2="76" class="net_9"/>
+  <line x1="446" x2="446" y1="76" y2="152.5" class="net_9"/>
+  <line x1="446" x2="487" y1="152.5" y2="152.5" class="net_9"/>
+  <line x1="891.3333333333334" x2="1104" y1="34.5" y2="34.5" class="net_6,7"/>
+  <line x1="830" x2="1104" y1="195" y2="195" class="net_8"/>
+  <line x1="518" x2="767" y1="132.5" y2="132.5" class="net_6"/>
+  <line x1="767" x2="767" y1="132.5" y2="24.5" class="net_6"/>
+  <line x1="767" x2="885.3333333333334" y1="24.5" y2="24.5" class="net_6"/>
+  <line x1="40" x2="77" y1="54.5" y2="54.5" class="net_2,3,4,5"/>
+</svg>
