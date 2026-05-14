@@ -33,8 +33,6 @@ A single-port SRAM controller implemented in Verilog HDL. The design uses a fini
 | Setup Slack | 6.34 ns (MET) |
 | Hold Slack | 0.43 ns (MET) |
 
-## Video Demo
-[![Watch the video](https://youtube.com)](https://youtu.be/your_video_link)
 
 ## What I learned
 - Designed an FSM-based SRAM controller in Verilog HDL.
